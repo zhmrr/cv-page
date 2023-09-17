@@ -1,0 +1,146 @@
+/*defining all the fonts in the cv*/
+
+@font-face {
+    font-family:'Autumn Wind' ;
+    src: url(Fonts/Autumn\ Wind.ttf);
+}
+
+@font-face {
+    font-family:'opensans' ;
+    src: url(Fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family:'the seasons' ;
+    src: url(Fonts/Fontspring-DEMO-theseasons-reg.otf);
+}
+
+@font-face {
+    font-family:'lora' ;
+    src: url(Fonts/Lora-Regular.ttf);
+}
+
+
+/*all header CSS*/
+.header {
+    text-align: center;
+    padding: 40px 50px 40px 40px;
+    background-color: white;
+}
+img {
+    text-align: left;
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+}
+
+h1{
+    color: black;
+    font-family: 'lora' ;
+    font-size: 70px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+a {
+    color:black;
+    font-family:'opensans';
+    font-size: 15px;
+}
+
+#p1 {
+    color: black;
+    font-family:'opensans';
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/* body experince, education semua*/
+.experience {
+    text-align: left;
+    padding: 40px 50px 40px 40px;
+    background-color: white;
+}
+
+.underline {
+    display: inline-block;
+    border-bottom: 1px solid black; 
+}
+
+h2{
+    color: black;
+    font-family: 'lora' ;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: left;
+    
+}
+
+#p2{
+    color: black;
+    font-family:'opensans';
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#p3{
+    color: black;
+    font-family:'opensans';
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#roles{
+    display:block;
+    font-size: 20px;
+}
+
+#description {
+    display:block;
+}
+
+#location{
+    display:block;
+    font-size: 14px;
+}
+
+.year{
+    text-align: right;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+.card-title {
+    padding-bottom: 10px; 
+    margin-bottom: 0; 
+}
+
+#card-img-top1 {
+    padding: 50px 20px 10px 20px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+#card-img-top2 {
+    padding: 50px 20px 10px 20px;
+    height:380px;
+    width: 420px;
+    display: block;
+    margin: 0 auto;
+}
+
+#card-img-top3 {
+    padding: 10px;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+}
